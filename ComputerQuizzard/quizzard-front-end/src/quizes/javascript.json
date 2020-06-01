@@ -1,0 +1,42 @@
+{
+    "name": "Computer Science",
+    "questions":
+[
+    {
+        "question": "A set of steps to solve a problem or perform a calculation is also known as ___.",
+        "optionA": "program",
+        "optionB": "an algorithm",
+        "optionC": "a recursion",
+        "optionD": "a puzzle",
+        "answer":  "an algorithm"
+    },
+
+    {
+        "question": "Starting with a list then sequentially checking every item in the list for a search term is also known as a ___ search.",
+        "optionA": "linear",
+        "optionB": "tree",
+        "optionC": "sequential",
+        "optionD": "All of the above",
+        "answer": "linear"
+    },
+
+    {
+        "question": "Starting with a sorted list then repeatedly halving the list to the portion that could contain the search term is also known as a ___ search.",
+        "optionA": "To execute a function",
+        "optionB": "There is no exec() method in javascript",
+        "optionC": "To find a specific character within a string",
+        "optionD": "binary",
+        "answer": "binary"
+    },
+
+    {
+        "question": " An example of ___ sort might be repeatedly scanning through a list of numbers, finding the smallest number, and moving it into its position in an array",
+        "optionA": "selection",
+        "optionB": "an insertion",
+        "optionC": "getPosition",
+        "optionD": "bubble",
+        "answer": "selection"
+    }
+]
+}
+

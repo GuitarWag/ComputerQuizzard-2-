@@ -1,0 +1,33 @@
+{
+    "name": "Express",
+    "questions":
+[
+    {
+        "question": "The machine and code that handle requests and respond to them are collectively called the ___.",
+        "optionA": "server",
+        "optionB": "client",
+        "optionC": "CPU",
+        "optionD": "router",
+        "answer":  "server"
+    },
+
+    {
+        "question": "Starting with a list then sequentially checking every item in the list for a search term is also known as a ___ search.",
+        "optionA": "linear",
+        "optionB": "tree",
+        "optionC": "sequential",
+        "optionD": "All of the above",
+        "answer": "linear"
+
+    },
+
+    {
+        "question": "Which method would you call to find the highest value of x and y?",
+        "optionA": "Math.ceil(x,y)",
+        "optionB": "Math.floor(x,y)",
+        "optionC": "Math.highest(x,y)",
+        "optionD": "Math.max(x,y)",
+        "answer": "Math.max(x,y)"
+    }
+]
+}

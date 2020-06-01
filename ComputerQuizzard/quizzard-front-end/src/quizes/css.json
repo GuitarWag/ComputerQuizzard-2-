@@ -1,0 +1,23 @@
+{
+    "name": "Mongo DB",
+    "questions":
+[
+    {
+        "question": "MongoDB is a very popular ___ database",
+        "optionA": "sql",
+        "optionB": "json",
+        "optionC": "relational",
+        "optionD": "Matrix",
+        "answer": "noSql"
+    },
+
+    {
+        "question": "MongoDB stores data in ___ format.",
+        "optionA": "bson",
+        "optionB": "table",
+        "optionC": "json",
+        "optionD": "All of the above",
+        "answer": "bson"
+    }
+]
+}
