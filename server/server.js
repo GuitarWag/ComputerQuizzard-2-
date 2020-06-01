@@ -22,6 +22,10 @@ app.use(cors({
     credentials: true,
     origin: 'http://localhost:3000'
 }));
+
+// Serve static files from the React frontend app
+app.use(express.static(path.join(__dirname, 'quizzard-front-end/build')))
+
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use('/api/users', usersRoute);
