@@ -32,6 +32,10 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use('/api/users', usersRoute);
 
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname + '/quizzard-front-end/build/index.html'))
+})
+
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
