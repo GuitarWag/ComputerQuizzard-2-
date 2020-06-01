@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "cd server && node server.js",
-    "heroku-postbuild": "cd quizzard-front-end && npm install && npm run build"
+    "heroku-postbuild": "cd quizzard-front-end && yarn && yarn build"
   },
   "keywords": [
     "node.js",
