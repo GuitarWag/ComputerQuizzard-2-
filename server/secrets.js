@@ -1,5 +1,5 @@
 const secrets = {
-  dbUri: process.env.DB_URI || 'mongodb://127.0.0.1:27017/quiz?retryWrites=true&w=majority',
+  dbUri: process.env.DB_URI || 'mongodb+srv://quiz:quiz@cluster0-ac84s.mongodb.net/quiz?retryWrites=true&w=majority',
 };
 
 const getSecret = (key) => secrets[key];
